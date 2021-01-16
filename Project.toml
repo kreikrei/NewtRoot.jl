@@ -3,6 +3,9 @@ uuid = "afab8ccc-d1d0-4d07-9772-8ac6e5940a91"
 authors = ["kreikrei <kreitonstrs@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+
 [compat]
 julia = "1"
 
