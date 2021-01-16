@@ -27,4 +27,6 @@ function newtonRoot(g,x_0,tol,max_iter)
     return (x_old,iter)
 end
 
+export newtonRoot
+
 end
