@@ -21,7 +21,7 @@ function newtonRoot(g,x_0,tol,max_iter)
 
         #second half prepare for next iter
         x_old = x_new
-        iter+=1
+        iter += 1
     end
 
     return (x_old,iter)
