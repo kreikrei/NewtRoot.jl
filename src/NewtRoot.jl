@@ -24,7 +24,11 @@ function newtonRoot(g,x_0,tol,max_iter)
         iter += 1
     end
 
-    return (x_old,iter)
+    if x_Diff > tol #non-converging or out of max iter limit
+        return nothing
+    else
+        return (x_old,iter)
+    end
 end
 
 export newtonRoot
